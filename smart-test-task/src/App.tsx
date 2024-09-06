@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchUsers, User } from './features/user/userSlice';
+import { fetchUsers, User } from './features/user/userSlice.ts';
 import { RootState, AppDispatch } from './store';
 
 const App: React.FC = () => {
